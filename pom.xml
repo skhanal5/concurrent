@@ -3,15 +3,21 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.skhanal5</groupId>
-  <artifactId>futures</artifactId>
+  <artifactId>concurrent</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>futures</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>basic-threads</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>21</java.version>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
   </properties>
 
   <dependencies>
